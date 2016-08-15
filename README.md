@@ -1,6 +1,10 @@
 # cocopods_bitcode_jenkins_support
 
-Building your iOS Release build on Jenkins, adding the flags below when using cocopods:
+#### Building your iOS Release build on Jenkins,
+
+#### Inside your podfile
+
+adding the flags below when using cocopods:
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|
